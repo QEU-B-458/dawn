@@ -41,7 +41,7 @@
 #include "src/dawn/node/binding/TogglesLoader.h"
 
 #if defined(_WIN32)
-#include <Windows.h>
+#include <windows.h>
 #endif
 
 namespace {

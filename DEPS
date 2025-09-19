@@ -280,12 +280,12 @@ deps = {
   },
 
   'third_party/swiftshader': {
-    'url': '{swiftshader_git}/SwiftShader@ce5b85176a89daa2886fd9bab86aff9a60801da5',
+    'url': '{swiftshader_git}/SwiftShader@7dd631d218ad1864ab672e60110034a65aed6367',
     'condition': 'dawn_standalone',
   },
 
   'third_party/vulkan-deps': {
-    'url': '{chromium_git}/vulkan-deps@86b0a2e14a4d71a3721bf6252afa24a44999e62c',
+    'url': '{chromium_git}/vulkan-deps@8ff085ff814fe22625601755b5ba378d5b7b587d',
     'condition': 'dawn_standalone',
   },
 
@@ -330,7 +330,7 @@ deps = {
   },
 
   'third_party/vulkan-validation-layers/src': {
-    'url': '{chromium_git}/external/github.com/KhronosGroup/Vulkan-ValidationLayers@100cd65f96d1ffdaac93b560e65eb5e207466b3f',
+    'url': '{chromium_git}/external/github.com/KhronosGroup/Vulkan-ValidationLayers@5c69a98762f6d8bc68d4a0042ba4a037d4af0a05',
     'condition': 'dawn_standalone',
   },
 
@@ -345,7 +345,7 @@ deps = {
   },
 
   'third_party/dxc': {
-    'url': '{chromium_git}/external/github.com/microsoft/DirectXShaderCompiler@7f771fb70476100deba83a6522272741dc544723',
+    'url': '{chromium_git}/external/github.com/microsoft/DirectXShaderCompiler@a89e18e7a08f84b835acb2a5076db478dd6ce595',
   },
 
   'third_party/dxheaders': {

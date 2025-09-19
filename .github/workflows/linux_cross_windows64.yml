@@ -33,14 +33,11 @@ jobs:
             git
 
       - name: Clone Dawn
-        run: |
-          git clone https://dawn.googlesource.com/dawn dawn
-          cd dawn
+        run: | 
           python3 tools/fetch_dawn_dependencies.py
 
       - name: Configure with CMake
         run: |
-          cd dawn
           mkdir -p out/Debug
           cd out/Debug
           cmake ../..

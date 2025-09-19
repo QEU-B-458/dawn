@@ -44,7 +44,7 @@ jobs:
 
       - name: Build Dawn
         run: |
-          cd dawn/out/Debug
+          cd out/Debug
           make -j$(nproc) VERBOSE=1
 
       - name: Upload artifacts
